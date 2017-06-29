@@ -1,0 +1,10 @@
+[2017-06-27 13:32:00]-[ Timer-0 ]-[ DEBUG ] timer.ReceiveMsgTask:44 >> 漏扫的ID为：[1, 3, 7, 8, 9]
+[2017-06-27 13:32:00]-[ Timer-0 ]-[ DEBUG ] timer.WriteExcel:27 >> 开始写入Excel
+[2017-06-27 13:32:01]-[ Timer-0 ]-[ DEBUG ] timer.WriteExcel:80 >> 写入Excel，数据导出成功
+[2017-06-27 13:32:01]-[ Timer-0 ]-[ DEBUG ] timer.WriteExcel:84 >> 开始发送邮件
+[2017-06-27 13:35:00]-[ Timer-0 ]-[ DEBUG ] timer.ReceiveMsgTask:42 >> 该范围内没有漏扫，清空集合
+[2017-06-27 13:38:00]-[ Timer-0 ]-[ DEBUG ] timer.ReceiveMsgTask:42 >> 该范围内没有漏扫，清空集合
+[2017-06-27 13:41:00]-[ Timer-0 ]-[ DEBUG ] timer.ReceiveMsgTask:44 >> 漏扫的ID为：[8, 9]
+[2017-06-27 13:41:00]-[ Timer-0 ]-[ DEBUG ] timer.WriteExcel:27 >> 开始写入Excel
+[2017-06-27 13:41:00]-[ Timer-0 ]-[ DEBUG ] timer.WriteExcel:80 >> 写入Excel，数据导出成功
+[2017-06-27 13:41:00]-[ Timer-0 ]-[ DEBUG ] timer.WriteExcel:84 >> 开始发送邮件

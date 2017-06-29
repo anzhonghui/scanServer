@@ -1,0 +1,42 @@
+[2017-06-23 08:23:38]-[ main ]-[ ERROR ] luncher.Startup:68 >> java.lang.NumberFormatException: empty String
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.lang.Double.parseDouble(Double.java:538)
+	at utils.ExcelUtils.getPortList(ExcelUtils.java:69)
+	at luncher.Startup.main(Startup.java:51)
+
+[2017-06-23 08:23:38]-[ main ]-[ ERROR ] luncher.Startup:68 >> java.lang.NumberFormatException: empty String
+	at sun.misc.FloatingDecimal.readJavaFormatString(FloatingDecimal.java:1842)
+	at sun.misc.FloatingDecimal.parseDouble(FloatingDecimal.java:110)
+	at java.lang.Double.parseDouble(Double.java:538)
+	at utils.ExcelUtils.getPortList(ExcelUtils.java:69)
+	at luncher.Startup.main(Startup.java:51)
+
+[2017-06-23 08:39:41]-[ Thread-1 ]-[ ERROR ] listener.NettyListener:109 >> java.lang.NumberFormatException: For input string: "#"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:569)
+	at java.lang.Integer.valueOf(Integer.java:740)
+	at java.lang.Integer.decode(Integer.java:1197)
+	at java.lang.Byte.decode(Byte.java:277)
+	at utils.CRC16Util.uniteBytes(CRC16Util.java:155)
+	at utils.CRC16Util.HexString2Buf(CRC16Util.java:175)
+	at listener.NettyListener.sendMsg(NettyListener.java:92)
+	at handler.PollHandler.dataHandler(PollHandler.java:91)
+	at handler.PollHandler.start(PollHandler.java:36)
+	at luncher.Startup$2.run(Startup.java:96)
+	at java.lang.Thread.run(Thread.java:745)
+
+[2017-06-23 08:39:41]-[ Thread-1 ]-[ ERROR ] listener.NettyListener:109 >> java.lang.NumberFormatException: For input string: "#"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Integer.parseInt(Integer.java:569)
+	at java.lang.Integer.valueOf(Integer.java:740)
+	at java.lang.Integer.decode(Integer.java:1197)
+	at java.lang.Byte.decode(Byte.java:277)
+	at utils.CRC16Util.uniteBytes(CRC16Util.java:155)
+	at utils.CRC16Util.HexString2Buf(CRC16Util.java:175)
+	at listener.NettyListener.sendMsg(NettyListener.java:92)
+	at handler.PollHandler.dataHandler(PollHandler.java:91)
+	at handler.PollHandler.start(PollHandler.java:36)
+	at luncher.Startup$2.run(Startup.java:96)
+	at java.lang.Thread.run(Thread.java:745)
+

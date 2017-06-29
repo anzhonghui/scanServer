@@ -1,0 +1,28 @@
+[2017-06-26 19:56:00]-[ Timer-0 ]-[ DEBUG ] timer.ReceiveMsgTask:42 >> 漏扫的ID为：[1, 3, 7, 8, 9]
+[2017-06-26 19:56:00]-[ Timer-0 ]-[ DEBUG ] timer.WriteExcel:27 >> 开始写入Excel
+[2017-06-26 19:56:01]-[ Timer-0 ]-[ DEBUG ] timer.WriteExcel:80 >> 写入Excel，数据导出成功
+[2017-06-26 19:56:01]-[ Timer-0 ]-[ DEBUG ] timer.WriteExcel:84 >> 开始发送邮件
+[2017-06-26 19:56:21]-[ Timer-0 ]-[ ERROR ] timer.WriteExcel:87 >> 发送邮件失败
+[2017-06-26 19:56:21]-[ Timer-0 ]-[ ERROR ] timer.WriteExcel:88 >> com.sun.mail.smtp.SMTPSendFailedException: 554 DT:SPM 163 smtp2,DNGowADH4dxY9lBZth1eAw--.1695S2 1498478179,please see http://mail.163.com/help/help_spam_16.htm?ip=27.221.102.105&hostid=smtp2&time=1498478179
+
+	at com.sun.mail.smtp.SMTPTransport.issueSendCommand(SMTPTransport.java:2267)
+	at com.sun.mail.smtp.SMTPTransport.finishData(SMTPTransport.java:2045)
+	at com.sun.mail.smtp.SMTPTransport.sendMessage(SMTPTransport.java:1260)
+	at timer.SendAttachment.Send(SendAttachment.java:62)
+	at timer.WriteExcel.writeExcel(WriteExcel.java:85)
+	at timer.ReceiveMsgTask.run(ReceiveMsgTask.java:43)
+	at java.util.TimerThread.mainLoop(Timer.java:555)
+	at java.util.TimerThread.run(Timer.java:505)
+
+[2017-06-26 20:00:00]-[ Timer-0 ]-[ DEBUG ] timer.ReceiveMsgTask:42 >> 漏扫的ID为：[1, 3, 7, 8, 9]
+[2017-06-26 20:00:00]-[ Timer-0 ]-[ DEBUG ] timer.WriteExcel:27 >> 开始写入Excel
+[2017-06-26 20:00:00]-[ Timer-0 ]-[ DEBUG ] timer.WriteExcel:80 >> 写入Excel，数据导出成功
+[2017-06-26 20:00:00]-[ Timer-0 ]-[ DEBUG ] timer.WriteExcel:84 >> 开始发送邮件
+[2017-06-26 20:04:00]-[ Timer-0 ]-[ DEBUG ] timer.ReceiveMsgTask:40 >> 该范围内没有漏扫，清空集合
+[2017-06-26 20:15:00]-[ Timer-0 ]-[ DEBUG ] timer.ReceiveMsgTask:42 >> 漏扫的ID为：[1, 3, 7, 8, 9]
+[2017-06-26 20:15:00]-[ Timer-0 ]-[ DEBUG ] timer.WriteExcel:27 >> 开始写入Excel
+[2017-06-26 20:15:00]-[ Timer-0 ]-[ DEBUG ] timer.WriteExcel:80 >> 写入Excel，数据导出成功
+[2017-06-26 20:15:00]-[ Timer-0 ]-[ DEBUG ] timer.WriteExcel:84 >> 开始发送邮件
+[2017-06-26 20:18:00]-[ Timer-0 ]-[ DEBUG ] timer.ReceiveMsgTask:40 >> 该范围内没有漏扫，清空集合
+[2017-06-26 20:21:00]-[ Timer-0 ]-[ DEBUG ] timer.ReceiveMsgTask:40 >> 该范围内没有漏扫，清空集合
+[2017-06-26 20:24:00]-[ Timer-0 ]-[ DEBUG ] timer.ReceiveMsgTask:40 >> 该范围内没有漏扫，清空集合
